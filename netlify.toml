@@ -1,1 +1,4 @@
-functions = ./functions
+[build]
+  Command = "npm build && npm build:lambda"
+  Functions = "lambda"
+  Publish = "build"
